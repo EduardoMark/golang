@@ -44,6 +44,6 @@ type Person struct {
 }
 
 func (p *Person) IncrementAge() {
-	fmt.Println(&p.Name)
+	fmt.Println(&p.Age)
 	p.Age += 1
 }
